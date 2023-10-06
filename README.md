@@ -29,6 +29,7 @@
 # 📖🚗 Hello rails backend App <a name="about-project"></a>
 
 Backend to greetings simple app
+> [Link to the FrontEnd App (hello-react-front-end).](https://github.com/mrcbq/hello-react-front-end/pull/1)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -109,25 +110,18 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: the backend will be run on port:3001 by default, the fornted will be run on port 3000.
 
 ```sh
-./bin/dev
+rails server
 ```
 **Note:** If there are any errors consider adding your necesary username and password in `database.yml` for setting up your local enviroment and use the following comand:
 
 ```sh
 rails db:drop db:create db:migrate
-./bin/dev
+rails server
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-rspec ./spec/models
-```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
